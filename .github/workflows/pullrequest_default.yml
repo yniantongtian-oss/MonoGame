@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   defaults:
+    if: github.repository == 'MonoGame/MonoGame'
     runs-on: ubuntu-latest
     steps:
       - name: Apply label and milestone
